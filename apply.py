@@ -20,21 +20,21 @@ URLS = [URL_g1, URL_g2, URL_g3, URL_g4, URL_l1, URL_l2, URL_l3, URL_l4] # to tes
 
 # Fill in this dictionary with your personal details!
 JOB_APP = {
-    "first_name": "Harshi",
-    "last_name": "Bar",
-    "email": "info.harshibar@gmail.com",
-    "phone": "123-456-7890",
+    "first_name": "Sulaiman",
+    "last_name": "Ghori",
+    "email": "skghori03@gmail.com",
+    "phone": "571-577-7241",
     "org": "Self-Employed",
     "resume": "resume.pdf",
     "resume_textfile": "resume_short.txt",
-    "linkedin": "https://www.linkedin.com/",
-    "website": "www.youtube.com/harshibar",
-    "github": "https://github.com/harshibar",
+    "linkedin": "https://www.linkedin.com/in/sulaiman-ghori-026312187/",
+    "website": "https://github.com/djmango",
+    "github": "https://github.com/djmango",
     "twitter": "www.twitter.com",
-    "location": "San Francisco, California, United States",
+    "location": "Ashburn, Virginia, United States",
     "grad_month": '06',
     "grad_year": '2021',
-    "university": "MIT" # if only o.O
+    "university": "NOVA" # if only o.O
 }
 
 # Greenhouse has a different application form structure than Lever, and thus must be parsed differently
@@ -168,7 +168,7 @@ if __name__ == '__main__':
     print(f'Job Listings: {aggregatedURLs}')
     print('\n')
 
-    driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
+    driver = webdriver.Chrome()
     for url in aggregatedURLs:
         print('\n')
 
